@@ -14,7 +14,7 @@ cat << EOF
 ===========================
 ===========================
 EOF
-sudo apt install software-properties-common apt-transport-https wget -y
+sudo apt install software-properties-common apt-transport-https wget curl -y
 cat << EOF
 ===========================
 ===========================
@@ -23,6 +23,7 @@ cat << EOF
 ===========================
 EOF
 sudo apt install zsh -y
+source ~/.bashrc
 cat << EOF
 ===========================
 ===========================
@@ -39,6 +40,7 @@ cat << EOF
 ===========================
 EOF
 wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+source ~/.bashrc
 nvm install --lts
 nvm use --lts
 cat << EOF
