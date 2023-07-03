@@ -23,7 +23,6 @@ cat << EOF
 ===========================
 EOF
 sudo apt install zsh -y
-chsh -s $(which zsh)
 cat << EOF
 ===========================
 ===========================
