@@ -24,7 +24,7 @@ cat << EOF
 EOF
 sudo apt install zsh -y
 source ~/.bashrc
-sudo -u $SUDO_USER chsh -s $(which zsh)
+chsh -s $(which zsh)
 cat << EOF
 ===========================
 ===========================
@@ -32,7 +32,7 @@ cat << EOF
 ===========================
 ===========================
 EOF
-sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
 cat << EOF
 ===========================
 ===========================
