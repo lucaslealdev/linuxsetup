@@ -24,6 +24,7 @@ cat << EOF
 EOF
 sudo apt install zsh -y
 source ~/.bashrc
+source $HOME/.profile
 cat << EOF
 ===========================
 ===========================
