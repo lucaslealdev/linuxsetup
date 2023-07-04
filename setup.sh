@@ -27,6 +27,7 @@ source ~/.bashrc
 source .bash_profile
 source $HOME/.profile
 export ZSH="/user/bin/zsh"
+exec $SHELL
 cat << EOF
 ===========================
 ===========================
