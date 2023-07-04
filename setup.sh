@@ -24,7 +24,9 @@ cat << EOF
 EOF
 sudo apt install zsh -y
 source ~/.bashrc
+source .bash_profile
 source $HOME/.profile
+export ZSH="/user/bin/zsh"
 cat << EOF
 ===========================
 ===========================
