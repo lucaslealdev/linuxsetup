@@ -14,7 +14,7 @@ cat << EOF
 ===========================
 ===========================
 EOF
-sudo apt install software-properties-common apt-transport-https wget curl -y
+sudo apt install software-properties-common apt-transport-https wget curl git -y
 cat << EOF
 ===========================
 ===========================
