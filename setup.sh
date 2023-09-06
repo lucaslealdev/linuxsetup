@@ -31,7 +31,7 @@ cat << EOF
 ===========================
 ===========================
 EOF
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
+sudo sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
 cat << EOF
 ===========================
 ===========================
